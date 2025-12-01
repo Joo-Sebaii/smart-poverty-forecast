@@ -1,0 +1,67 @@
+═══════════════════════════════════════════════════════════════
+   STEP-BY-STEP GUIDE TO RUN YOUR PROJECT
+═══════════════════════════════════════════════════════════════
+
+📋 STEP 1: Open TWO Terminal Windows/PowerShell Windows
+
+   - Terminal 1: For the Backend (API Server)
+   - Terminal 2: For the Frontend (Web Interface)
+
+
+───────────────────────────────────────────────────────────────
+
+🖥️  STEP 2: In Terminal 1 (Backend)
+
+   Run these commands one by one:
+
+   cd "F:\Desk Top Apps\Modulles\Cskilled\ML\My Projects\smart-poverty-forecast\backend"
+   
+   pip install -r requirements.txt
+   
+   uvicorn main:app --reload
+
+   ✅ You should see: "Application startup complete"
+   ✅ Server will be running at: http://127.0.0.1:8000
+   ✅ Keep this terminal OPEN
+
+
+───────────────────────────────────────────────────────────────
+
+🌐 STEP 3: In Terminal 2 (Frontend)
+
+   Run these commands one by one:
+
+   cd "F:\Desk Top Apps\Modulles\Cskilled\ML\My Projects\smart-poverty-forecast\frontend"
+   
+   pip install -r requirements.txt
+   
+   streamlit run app.py
+
+   ✅ You should see: "You can now view your Streamlit app in your browser"
+   ✅ URL will be: http://localhost:8501
+   ✅ Your browser will open automatically!
+
+
+───────────────────────────────────────────────────────────────
+
+🎯 STEP 4: Use Your Application
+
+   1. The Streamlit page should open in your browser automatically
+   2. If not, open: http://localhost:8501
+   3. Fill in the form with values:
+      - Current Income
+      - Poverty Last Year (%)
+      - Income Last Year
+      - 3-Year Poverty Average (%)
+   4. Click "Predict Poverty Levels"
+   5. See your predictions! 🎉
+
+
+───────────────────────────────────────────────────────────────
+
+💡 TIP: Or just double-click these files in Windows Explorer:
+
+   - start_backend.bat  (starts backend)
+   - start_frontend.bat (starts frontend)
+
+═══════════════════════════════════════════════════════════════

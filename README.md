@@ -80,3 +80,4 @@ Frontend will be available at: http://localhost:8501
 - The backend server must be running before using the frontend
 - Models are loaded automatically when the backend starts
 - Use `--reload` flag for development (automatic restart on code changes)
+
